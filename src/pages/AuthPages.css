@@ -1,0 +1,109 @@
+.auth-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-border-light) 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 36px;
+  text-align: center;
+}
+
+.auth-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.auth-card h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.auth-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 28px;
+}
+
+.auth-card .form-group {
+  text-align: left;
+}
+
+.auth-forgot {
+  text-align: right;
+  margin-top: -12px;
+  margin-bottom: 16px;
+}
+
+.auth-forgot a {
+  font-size: 0.82rem;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.auth-forgot a:hover { text-decoration: underline; }
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.auth-switch {
+  margin-top: 20px;
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.auth-switch a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-switch a:hover { text-decoration: underline; }
+
+/* Password strength */
+.strength-meter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.strength-bars {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+}
+
+.strength-bar {
+  height: 4px;
+  flex: 1;
+  border-radius: 2px;
+  transition: background var(--transition);
+}
+
+.strength-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  min-width: 44px;
+  text-align: right;
+}

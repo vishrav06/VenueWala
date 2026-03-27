@@ -1,0 +1,242 @@
+.venue-details {
+  padding-bottom: 80px;
+}
+
+.vd-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 0 16px;
+  font-size: 0.83rem;
+  color: var(--color-text-muted);
+}
+
+.vd-breadcrumb a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.vd-breadcrumb a:hover { text-decoration: underline; }
+
+.vd-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 40px;
+  align-items: start;
+}
+
+/* Header */
+.vd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+.vd-badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.vd-name {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+.vd-location {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.vd-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.vd-popularity {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+/* Info grid */
+.vd-info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.vd-info-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+}
+
+.info-icon { font-size: 1.5rem; flex-shrink: 0; }
+
+.info-value {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
+
+.info-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* Section */
+.vd-section {
+  margin-top: 36px;
+}
+
+.vd-section h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.vd-desc {
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+/* Amenities */
+.vd-amenities {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.amenity-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border-light);
+  font-size: 0.85rem;
+}
+
+.amenity-card.has {
+  background: linear-gradient(135deg, rgba(155,93,229,0.06), rgba(247,168,210,0.06));
+  border-color: rgba(155, 93, 229, 0.2);
+}
+
+.amenity-card.no {
+  opacity: 0.4;
+}
+
+.amenity-icon { font-size: 1rem; flex-shrink: 0; }
+.amenity-name { flex: 1; font-size: 0.82rem; color: var(--color-text); }
+
+.amenity-status {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.amenity-card.has .amenity-status { color: #22c55e; }
+.amenity-card.no .amenity-status { color: #ef4444; }
+
+/* Contact */
+.vd-contact {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: var(--color-surface-hover);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.contact-item:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* Sidebar booking card */
+.vd-sidebar {
+  position: sticky;
+  top: calc(var(--navbar-height) + 20px);
+}
+
+.vd-booking-card {
+  padding: 24px;
+}
+
+.booking-price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.booking-price-label {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+
+.booking-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.booking-note {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+/* Similar */
+.vd-similar {
+  margin-top: 60px;
+}
+
+@media (max-width: 1024px) {
+  .vd-layout {
+    grid-template-columns: 1fr;
+  }
+  .vd-sidebar {
+    position: static;
+    order: -1;
+  }
+  .vd-info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .vd-info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

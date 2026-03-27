@@ -1,0 +1,88 @@
+.map-pin-wrap {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.map-pin-marker {
+  width: 32px;
+  height: 40px;
+  background: var(--color-primary);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition), background var(--transition);
+  border: 2px solid white;
+}
+
+.map-pin-wrap:hover .map-pin-marker,
+.map-pin-wrap.highlighted .map-pin-marker {
+  background: var(--color-secondary);
+  transform: rotate(-45deg) scale(1.2);
+}
+
+.pin-dot {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+/* Popup */
+.map-pin-popup {
+  position: absolute;
+  bottom: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  z-index: 10;
+  border: 1px solid var(--color-border-light);
+}
+
+.popup-img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.popup-body {
+  padding: 10px 12px 12px;
+}
+
+.popup-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popup-location {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin-bottom: 3px;
+}
+
+.popup-price {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.popup-btn {
+  width: 100%;
+  justify-content: center;
+  font-size: 0.78rem;
+  padding: 7px 12px;
+}

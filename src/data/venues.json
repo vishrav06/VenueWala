@@ -1,0 +1,546 @@
+[
+  {
+    "id": "v001",
+    "name": "The Grand Palace",
+    "slug": "the-grand-palace",
+    "type": "wedding-hall",
+    "location": {
+      "city": "Mumbai",
+      "area": "Andheri West",
+      "address": "12, Link Road, Andheri West, Mumbai 400053",
+      "lat": 19.1284,
+      "lng": 72.8467
+    },
+    "price": { "min": 150000, "max": 400000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 200, "max": 1000 },
+    "images": [
+      "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": true, "audioVisual": true, "bridalSuite": true },
+    "rating": 4.8,
+    "reviewCount": 214,
+    "popularity": 98,
+    "description": "The Grand Palace is Mumbai's most iconic wedding destination. With its breathtaking chandeliers, marble flooring, and sprawling lawns, it offers an unmatched luxury experience. The venue features a grand ballroom that can host up to 1000 guests, a dedicated bridal suite, in-house catering team, and state-of-the-art audiovisual setup. Perfect for grand weddings, receptions, and milestone celebrations.",
+    "availability": {
+      "bookedDates": ["2026-04-05", "2026-04-12", "2026-04-19", "2026-05-03", "2026-05-10", "2026-05-17"],
+      "blackoutDates": ["2026-04-01"]
+    },
+    "contact": { "phone": "+91 98765 43210", "email": "info@grandpalace.com" },
+    "featured": true,
+    "tags": ["luxury", "banquet", "lawn", "trending"]
+  },
+  {
+    "id": "v002",
+    "name": "Rosewater Garden",
+    "slug": "rosewater-garden",
+    "type": "farmhouse",
+    "location": {
+      "city": "Delhi",
+      "area": "Mehrauli",
+      "address": "Plot 45, Westend Colony, Mehrauli, New Delhi 110030",
+      "lat": 28.5135,
+      "lng": 77.1851
+    },
+    "price": { "min": 80000, "max": 200000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 500 },
+    "images": [
+      "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": false, "parking": true, "catering": true, "wifi": false, "decoration": true, "audioVisual": false, "bridalSuite": false },
+    "rating": 4.5,
+    "reviewCount": 89,
+    "popularity": 82,
+    "description": "Rosewater Garden is a stunning open-air farmhouse nestled on the outskirts of Delhi. Surrounded by fragrant rose gardens and lush greenery, this venue is perfect for intimate weddings and mehendi ceremonies. The sprawling property features a manicured lawn, a vintage gazebo, and an outdoor stage. The natural beauty of the setting creates a romantic backdrop for unforgettable celebrations.",
+    "availability": {
+      "bookedDates": ["2026-04-08", "2026-04-22", "2026-05-06", "2026-05-20"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 91234 56789", "email": "bookings@rosewater.in" },
+    "featured": true,
+    "tags": ["outdoor", "garden", "romantic", "intimate"]
+  },
+  {
+    "id": "v003",
+    "name": "The Heritage Haveli",
+    "slug": "the-heritage-haveli",
+    "type": "wedding-hall",
+    "location": {
+      "city": "Jaipur",
+      "area": "Civil Lines",
+      "address": "8, Civil Lines, Near SMS Stadium, Jaipur 302006",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "price": { "min": 100000, "max": 300000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 150, "max": 700 },
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": true, "audioVisual": true, "bridalSuite": true },
+    "rating": 4.9,
+    "reviewCount": 312,
+    "popularity": 95,
+    "description": "Step into a world of royal Rajasthani grandeur at The Heritage Haveli. This meticulously restored 200-year-old palace blends traditional architecture with modern amenities. With its ornate jharokhas, frescoed walls, and a central courtyard, every corner of this venue tells a story. Ideal for destination weddings seeking an authentic cultural experience.",
+    "availability": {
+      "bookedDates": ["2026-04-10", "2026-04-18", "2026-04-25", "2026-05-02", "2026-05-09"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 94100 23456", "email": "reservations@heritagehaveli.com" },
+    "featured": true,
+    "tags": ["heritage", "palace", "destination", "royal"]
+  },
+  {
+    "id": "v004",
+    "name": "Skyline Banquet Hall",
+    "slug": "skyline-banquet-hall",
+    "type": "wedding-hall",
+    "location": {
+      "city": "Mumbai",
+      "area": "Bandra East",
+      "address": "Tower B, BKC Complex, Bandra East, Mumbai 400051",
+      "lat": 19.0652,
+      "lng": 72.8687
+    },
+    "price": { "min": 60000, "max": 150000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 50, "max": 400 },
+    "images": [
+      "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": false, "wifi": true, "decoration": false, "audioVisual": true, "bridalSuite": false },
+    "rating": 4.2,
+    "reviewCount": 67,
+    "popularity": 70,
+    "description": "Skyline Banquet Hall offers a sleek, modern space perfect for contemporary weddings and corporate events. Located in the heart of BKC, it provides easy access for guests from across the city. The hall features floor-to-ceiling windows with panoramic city views, customizable lighting, and a professional sound system. Ideal for couples who want an urban, sophisticated setting.",
+    "availability": {
+      "bookedDates": ["2026-04-04", "2026-04-11", "2026-04-25", "2026-05-09"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 98200 11223", "email": "hello@skylinebanquet.com" },
+    "featured": false,
+    "tags": ["modern", "urban", "corporate", "city-view"]
+  },
+  {
+    "id": "v005",
+    "name": "Malabar Hill Guesthouse",
+    "slug": "malabar-hill-guesthouse",
+    "type": "guesthouse",
+    "location": {
+      "city": "Mumbai",
+      "area": "Malabar Hill",
+      "address": "23, Ridge Road, Malabar Hill, Mumbai 400006",
+      "lat": 18.9654,
+      "lng": 72.8066
+    },
+    "price": { "min": 25000, "max": 70000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 20, "max": 100 },
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": false, "catering": true, "wifi": true, "decoration": false, "audioVisual": false, "bridalSuite": true },
+    "rating": 4.6,
+    "reviewCount": 43,
+    "popularity": 75,
+    "description": "A charming boutique guesthouse perched on Malabar Hill with stunning views of the Arabian Sea. Perfect for intimate wedding receptions, ring ceremonies, and small family gatherings. The property features 8 elegantly furnished rooms, a rooftop terrace, and a cozy indoor lounge. Our in-house chef specializes in both traditional Indian and continental cuisine.",
+    "availability": {
+      "bookedDates": ["2026-04-07", "2026-04-14", "2026-04-28", "2026-05-12"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 99876 54321", "email": "stay@malabarhill.com" },
+    "featured": false,
+    "tags": ["intimate", "sea-view", "boutique", "cozy"]
+  },
+  {
+    "id": "v006",
+    "name": "Golden Lotus Resort",
+    "slug": "golden-lotus-resort",
+    "type": "resort",
+    "location": {
+      "city": "Bangalore",
+      "area": "Whitefield",
+      "address": "Survey No. 12, Varthur Road, Whitefield, Bangalore 560066",
+      "lat": 12.9698,
+      "lng": 77.7500
+    },
+    "price": { "min": 120000, "max": 350000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 800 },
+    "images": [
+      "https://images.unsplash.com/photo-1561049501-e1f96bdd98fd?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": true, "audioVisual": true, "bridalSuite": true },
+    "rating": 4.7,
+    "reviewCount": 178,
+    "popularity": 90,
+    "description": "Golden Lotus Resort is Bangalore's premier wedding destination. Set across 15 acres of manicured grounds, the resort features multiple event spaces including a grand ballroom, a lakeside pavilion, and terraced gardens. With 120 luxury rooms for accommodation, it's ideal for multi-day celebrations. Our dedicated wedding team handles everything from floral design to entertainment.",
+    "availability": {
+      "bookedDates": ["2026-04-06", "2026-04-13", "2026-04-20", "2026-05-04", "2026-05-11"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 80123 45678", "email": "weddings@goldenlotus.com" },
+    "featured": true,
+    "tags": ["resort", "luxury", "multi-day", "lakeside"]
+  },
+  {
+    "id": "v007",
+    "name": "Amber Warehouse Events",
+    "slug": "amber-warehouse-events",
+    "type": "godown",
+    "location": {
+      "city": "Bangalore",
+      "area": "Koramangala",
+      "address": "14, 3rd Cross, Industrial Area, Koramangala, Bangalore 560034",
+      "lat": 12.9352,
+      "lng": 77.6245
+    },
+    "price": { "min": 30000, "max": 80000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 150, "max": 600 },
+    "images": [
+      "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": false, "parking": true, "catering": false, "wifi": true, "decoration": false, "audioVisual": true, "bridalSuite": false },
+    "rating": 4.1,
+    "reviewCount": 55,
+    "popularity": 68,
+    "description": "Amber Warehouse Events is an industrial-chic blank canvas space perfect for couples who want a unique, customizable wedding. The raw brick walls, exposed beams, and soaring ceilings create a dramatic backdrop. The vast open floor plan allows complete creative freedom — transform it into anything from a bohemian garden to a glitzy Bollywood-themed bash.",
+    "availability": {
+      "bookedDates": ["2026-04-09", "2026-04-16", "2026-04-30", "2026-05-07"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 97890 12345", "email": "events@amberwarehouse.in" },
+    "featured": false,
+    "tags": ["industrial", "raw", "customizable", "trendy"]
+  },
+  {
+    "id": "v008",
+    "name": "Sunset Terrace",
+    "slug": "sunset-terrace",
+    "type": "farmhouse",
+    "location": {
+      "city": "Hyderabad",
+      "area": "Shankarpally",
+      "address": "Survey 78, Shankarpally Road, Hyderabad 501203",
+      "lat": 17.3850,
+      "lng": 78.0067
+    },
+    "price": { "min": 50000, "max": 130000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 80, "max": 350 },
+    "images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1439539698758-ba2680ecadb9?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": false, "parking": true, "catering": true, "wifi": false, "decoration": true, "audioVisual": false, "bridalSuite": false },
+    "rating": 4.4,
+    "reviewCount": 72,
+    "popularity": 77,
+    "description": "Sunset Terrace is a picturesque farmhouse venue on the outskirts of Hyderabad, offering spectacular sunset views over the Deccan plateau. The property features a stone terrace, a mango grove, a rain tree-shaded lawn, and a traditional South Indian pavilion. Perfect for sangeet nights, haldi ceremonies, and intimate receptions with a rustic charm.",
+    "availability": {
+      "bookedDates": ["2026-04-11", "2026-04-18", "2026-05-02", "2026-05-16"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 96543 21098", "email": "info@sunsetterrace.com" },
+    "featured": false,
+    "tags": ["rustic", "outdoor", "sunset-view", "south-indian"]
+  },
+  {
+    "id": "v009",
+    "name": "The Crystal Ballroom",
+    "slug": "the-crystal-ballroom",
+    "type": "wedding-hall",
+    "location": {
+      "city": "Delhi",
+      "area": "Connaught Place",
+      "address": "F-Block, Connaught Place, New Delhi 110001",
+      "lat": 28.6328,
+      "lng": 77.2197
+    },
+    "price": { "min": 200000, "max": 500000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 300, "max": 1200 },
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": true, "audioVisual": true, "bridalSuite": true },
+    "rating": 4.9,
+    "reviewCount": 398,
+    "popularity": 99,
+    "description": "The Crystal Ballroom is Delhi's most prestigious wedding venue, synonymous with grandeur and elegance. The venue features a 20,000 sq ft main hall adorned with Swarovski crystal chandeliers, a dedicated bridal suite, and a pre-function area with a cascading fountain. With a capacity for 1200 guests and an award-winning culinary team, this is where legends are made.",
+    "availability": {
+      "bookedDates": ["2026-04-04", "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02", "2026-05-09", "2026-05-16"],
+      "blackoutDates": ["2026-04-14", "2026-04-15"]
+    },
+    "contact": { "phone": "+91 11222 33445", "email": "events@crystalballroom.in" },
+    "featured": true,
+    "tags": ["ultra-luxury", "grand", "iconic", "trending"]
+  },
+  {
+    "id": "v010",
+    "name": "Lakeview Pavilion",
+    "slug": "lakeview-pavilion",
+    "type": "resort",
+    "location": {
+      "city": "Hyderabad",
+      "area": "Necklace Road",
+      "address": "Hussain Sagar Lakefront, Necklace Road, Hyderabad 500004",
+      "lat": 17.4234,
+      "lng": 78.4725
+    },
+    "price": { "min": 90000, "max": 250000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 600 },
+    "images": [
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": true, "audioVisual": true, "bridalSuite": false },
+    "rating": 4.6,
+    "reviewCount": 134,
+    "popularity": 85,
+    "description": "Lakeview Pavilion offers an extraordinary lakeside wedding experience on the banks of Hussain Sagar. Watch the sunset over the lake as you exchange vows on our floating stage. The venue features an indoor air-conditioned hall, an outdoor terrace, and a dedicated event management team. Evening events are especially magical with the city lights reflecting off the water.",
+    "availability": {
+      "bookedDates": ["2026-04-05", "2026-04-19", "2026-05-03", "2026-05-17"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 40987 65432", "email": "bookings@lakeviewpavilion.com" },
+    "featured": false,
+    "tags": ["lakeside", "scenic", "floating-stage", "city-lights"]
+  },
+  {
+    "id": "v011",
+    "name": "The Terracotta Villa",
+    "slug": "the-terracotta-villa",
+    "type": "guesthouse",
+    "location": {
+      "city": "Jaipur",
+      "area": "Amer",
+      "address": "Village Amer, Near Fort Road, Jaipur 302028",
+      "lat": 26.9855,
+      "lng": 75.8513
+    },
+    "price": { "min": 40000, "max": 100000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 30, "max": 150 },
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": false, "audioVisual": false, "bridalSuite": true },
+    "rating": 4.7,
+    "reviewCount": 61,
+    "popularity": 80,
+    "description": "The Terracotta Villa is an intimate Rajasthani heritage guesthouse with 12 uniquely decorated rooms. Steps away from Amer Fort, this property combines authentic local architecture — terracotta tiles, Rajasthani murals, and carved wooden furniture — with modern comfort. The central courtyard with its age-old neem tree is perfect for private ring ceremonies and mehndi events.",
+    "availability": {
+      "bookedDates": ["2026-04-07", "2026-04-21", "2026-05-05", "2026-05-19"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 94140 78901", "email": "villa@terracottajaipur.com" },
+    "featured": false,
+    "tags": ["heritage", "intimate", "guesthouse", "fort-view"]
+  },
+  {
+    "id": "v012",
+    "name": "Deccan Events Space",
+    "slug": "deccan-events-space",
+    "type": "godown",
+    "location": {
+      "city": "Hyderabad",
+      "area": "HITEC City",
+      "address": "Plot 33, Phase 2, HITEC City, Hyderabad 500081",
+      "lat": 17.4477,
+      "lng": 78.3805
+    },
+    "price": { "min": 20000, "max": 60000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 400 },
+    "images": [
+      "https://images.unsplash.com/photo-1504870712357-65ea720d6078?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": false, "wifi": true, "decoration": false, "audioVisual": true, "bridalSuite": false },
+    "rating": 3.9,
+    "reviewCount": 38,
+    "popularity": 60,
+    "description": "Deccan Events Space is a versatile, budget-friendly warehouse venue in the heart of HITEC City. With a fully air-conditioned interior, 4000 sq ft of open floor space, and professional lighting rigs, it's ideal for modern, themed weddings and receptions. Bring your own caterer and decorators to fully personalize your event. Convenient location with ample parking.",
+    "availability": {
+      "bookedDates": ["2026-04-08", "2026-04-15", "2026-04-29", "2026-05-06"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 98490 56789", "email": "deccanevents@gmail.com" },
+    "featured": false,
+    "tags": ["budget", "warehouse", "flexible", "tech-hub"]
+  },
+  {
+    "id": "v013",
+    "name": "Nirvana Gardens",
+    "slug": "nirvana-gardens",
+    "type": "farmhouse",
+    "location": {
+      "city": "Delhi",
+      "area": "Chattarpur",
+      "address": "Chattarpur Farms, Mehrauli-Gurgaon Road, New Delhi 110074",
+      "lat": 28.4845,
+      "lng": 77.1892
+    },
+    "price": { "min": 70000, "max": 180000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 600 },
+    "images": [
+      "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": false, "parking": true, "catering": true, "wifi": false, "decoration": true, "audioVisual": true, "bridalSuite": true },
+    "rating": 4.5,
+    "reviewCount": 96,
+    "popularity": 84,
+    "description": "Nirvana Gardens is one of Delhi's most beloved farmhouse wedding venues, located in the leafy Chattarpur belt. The property spans 3 acres with multiple event zones: a flower-lined aisle, a sprawling lawn for 500+ guests, a covered mandap area, and a bridal cottage. The in-house decor team specializes in marigold-draped traditional setups and modern minimalist themes alike.",
+    "availability": {
+      "bookedDates": ["2026-04-04", "2026-04-11", "2026-04-25", "2026-05-09", "2026-05-23"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 99999 01234", "email": "nirvana@chattarpurfarms.com" },
+    "featured": false,
+    "tags": ["chattarpur", "mandap", "marigold", "traditional"]
+  },
+  {
+    "id": "v014",
+    "name": "Serenity Heights Resort",
+    "slug": "serenity-heights-resort",
+    "type": "resort",
+    "location": {
+      "city": "Bangalore",
+      "area": "Nandi Hills",
+      "address": "NH-7, Nandi Hills Road, Chikballapur, Bangalore 562103",
+      "lat": 13.3701,
+      "lng": 77.6834
+    },
+    "price": { "min": 180000, "max": 450000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 50, "max": 400 },
+    "images": [
+      "https://images.unsplash.com/photo-1439130490301-25e322d88054?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1615880484746-a134be9a6ecf?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": true, "audioVisual": true, "bridalSuite": true },
+    "rating": 4.8,
+    "reviewCount": 156,
+    "popularity": 92,
+    "description": "Perched 4800 feet above sea level on the misty slopes of Nandi Hills, Serenity Heights Resort offers a truly otherworldly wedding experience. Cool mountain air, panoramic valley views, and lush coffee plantations set the scene for intimate, luxurious celebrations. The resort has 40 pool-facing cottages, a spa, and a Michelin-recommended restaurant. Perfect for small, high-end destination weddings.",
+    "availability": {
+      "bookedDates": ["2026-04-06", "2026-04-20", "2026-05-04", "2026-05-18"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 80567 89012", "email": "weddings@serenityheights.com" },
+    "featured": true,
+    "tags": ["hill-station", "destination", "luxury", "scenic"]
+  },
+  {
+    "id": "v015",
+    "name": "Rajmahal Convention Center",
+    "slug": "rajmahal-convention-center",
+    "type": "wedding-hall",
+    "location": {
+      "city": "Jaipur",
+      "area": "Tonk Road",
+      "address": "45, Tonk Road, Near World Trade Park, Jaipur 302015",
+      "lat": 26.8693,
+      "lng": 75.8033
+    },
+    "price": { "min": 50000, "max": 120000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 500 },
+    "images": [
+      "https://images.unsplash.com/photo-1478147427282-58a87a433968?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464047736614-af63643285bf?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": false, "decoration": true, "audioVisual": false, "bridalSuite": false },
+    "rating": 4.3,
+    "reviewCount": 82,
+    "popularity": 73,
+    "description": "Rajmahal Convention Center is a well-appointed banquet venue in Jaipur's commercial district, popular for its value-for-money packages and professional service. The air-conditioned main hall accommodates up to 500 guests in a theatre setting. With in-house Rajasthani cuisine catering, reliable staff, and easy accessibility from the city center, it's a trusted choice for mid-budget celebrations.",
+    "availability": {
+      "bookedDates": ["2026-04-12", "2026-04-26", "2026-05-10", "2026-05-24"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 94132 45678", "email": "rajmahal@conventionjaipur.com" },
+    "featured": false,
+    "tags": ["value", "banquet", "convention", "accessible"]
+  },
+  {
+    "id": "v016",
+    "name": "Ivory Arch Lawns",
+    "slug": "ivory-arch-lawns",
+    "type": "wedding-hall",
+    "location": {
+      "city": "Delhi",
+      "area": "Dwarka",
+      "address": "Sector 10, Dwarka, New Delhi 110075",
+      "lat": 28.5672,
+      "lng": 77.0395
+    },
+    "price": { "min": 45000, "max": 110000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 100, "max": 450 },
+    "images": [
+      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1510076857177-7470076d4098?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1568127888721-f64a0c6e1c94?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": false, "parking": true, "catering": true, "wifi": false, "decoration": true, "audioVisual": true, "bridalSuite": false },
+    "rating": 4.0,
+    "reviewCount": 49,
+    "popularity": 65,
+    "description": "Ivory Arch Lawns is a spacious open-air wedding venue in West Delhi, featuring a stunning ivory archway entrance and well-maintained green lawns. Ideal for evening and night functions, the venue transforms beautifully under string lights and lanterns. A popular choice for middle-budget weddings seeking a classic, elegant outdoor setting with ample space and convenient location.",
+    "availability": {
+      "bookedDates": ["2026-04-10", "2026-04-17", "2026-04-24", "2026-05-08", "2026-05-22"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 99100 56789", "email": "ivory@archlawns.com" },
+    "featured": false,
+    "tags": ["outdoor", "lawn", "evening", "affordable"]
+  },
+  {
+    "id": "v017",
+    "name": "Prestige Club Bangalore",
+    "slug": "prestige-club-bangalore",
+    "type": "guesthouse",
+    "location": {
+      "city": "Bangalore",
+      "area": "Indiranagar",
+      "address": "100 Feet Road, Indiranagar, Bangalore 560038",
+      "lat": 12.9784,
+      "lng": 77.6408
+    },
+    "price": { "min": 35000, "max": 90000, "currency": "INR", "unit": "per day" },
+    "capacity": { "min": 40, "max": 200 },
+    "images": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&auto=format&fit=crop"
+    ],
+    "amenities": { "ac": true, "parking": true, "catering": true, "wifi": true, "decoration": false, "audioVisual": true, "bridalSuite": false },
+    "rating": 4.4,
+    "reviewCount": 76,
+    "popularity": 78,
+    "description": "Prestige Club is an upscale members' club in Bangalore's trendiest neighborhood, offering exclusive event spaces for intimate celebrations. The venue features a private dining room, a poolside terrace, and a stylish rooftop lounge. Known for exceptional F&B, it's the go-to choice for cocktail parties, pre-wedding brunches, and small receptions where food and ambiance take center stage.",
+    "availability": {
+      "bookedDates": ["2026-04-05", "2026-04-19", "2026-05-03", "2026-05-17"],
+      "blackoutDates": []
+    },
+    "contact": { "phone": "+91 80234 56789", "email": "events@prestigeclub.in" },
+    "featured": false,
+    "tags": ["club", "exclusive", "poolside", "rooftop"]
+  }
+]

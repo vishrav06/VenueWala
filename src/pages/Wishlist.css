@@ -1,0 +1,31 @@
+.wishlist-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border-light);
+  padding: 28px 0;
+}
+
+.wishlist-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.wishlist-count {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.wishlist-content {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.wishlist-venue-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wishlist-remove-btn {
+  align-self: flex-start;
+}
